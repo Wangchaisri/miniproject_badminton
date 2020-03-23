@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Customers from './Customers';
 
 const Homepage =()=>{
     return(
         <div>
-            Hello Home
+            <Navbar />
+            
         </div>
     )
 }
